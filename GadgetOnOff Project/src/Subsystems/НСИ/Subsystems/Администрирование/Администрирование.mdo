@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68c4eee3-26e8-4a85-840e-47f9b01d3ba6">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ОсновнойСклад</content>
+  <content>Constant.ОсновнаяВалюта</content>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>DataProcessor.ОбъектыСсылки</content>
+  <content>DataProcessor.РаботаСПримитивнымиТипамиДанных</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзCSV</content>
+  <content>Constant.СоздаватьВалютыАвтоматически</content>
+  <parentSubsystem>Subsystem.НСИ</parentSubsystem>
+</mdclass:Subsystem>

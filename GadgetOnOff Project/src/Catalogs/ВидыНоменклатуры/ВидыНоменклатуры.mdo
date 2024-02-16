@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13de3ca3-36d4-43b1-af4c-88a2154f5dca">
+  <producedTypes>
+    <objectType typeId="910da52e-59bf-49d2-90c2-28abc69e9616" valueTypeId="dda015b1-75fc-4fc8-836c-280a91f839cf"/>
+    <refType typeId="7f1f5c75-ccca-4cd5-9ab7-6b420a74a3e6" valueTypeId="3eae875a-f0dc-4acc-9fc5-340dd86617c3"/>
+    <selectionType typeId="64f2e7eb-f8f4-4c1c-8c16-23bf98be81d5" valueTypeId="1ee25be3-61b8-4ff2-b3c9-dc4e199b9af4"/>
+    <listType typeId="6396fe5f-4790-4b8e-8bf0-1a3903e18cb9" valueTypeId="a7aaac7b-730a-4e74-98b8-d15141623bc0"/>
+    <managerType typeId="04c526b8-159b-4cef-a72b-2529f9d64a5b" valueTypeId="000b322f-57b5-49b4-af0c-96936bfd66ea"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ecb545e3-36e8-4be9-9eb2-421092d7fb3c">
+      <name>Комплект</name>
+      <description>Комплект</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

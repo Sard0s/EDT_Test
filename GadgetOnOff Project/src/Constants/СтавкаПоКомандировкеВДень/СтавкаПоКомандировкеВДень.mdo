@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77d19ae1-2b79-4524-9b92-a5ee22b2f37f">
+  <producedTypes>
+    <managerType typeId="392993bf-1f51-4330-8b21-b55343c2c5ac" valueTypeId="a3209c71-2c76-4b52-b9bf-432a59602a14"/>
+    <valueManagerType typeId="861a7e41-4033-470e-9d45-3c6b4c9f4f02" valueTypeId="6efbd5af-ec25-40cf-9ace-11f0a10a4470"/>
+    <valueKeyType typeId="7df98857-5db9-4928-ae16-a38488728488" valueTypeId="2783bcac-39b6-4479-8a87-a98e145ae31c"/>
+  </producedTypes>
+  <name>СтавкаПоКомандировкеВДень</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка по командировке в день</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>12</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

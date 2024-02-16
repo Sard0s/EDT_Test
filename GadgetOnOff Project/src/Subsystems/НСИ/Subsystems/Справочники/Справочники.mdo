@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3582cbcf-7df5-4c98-b8dc-da1f53074782">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ДетиСотрудников</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.Договоры</content>
+  <content>Catalog.Должность</content>
+  <content>Catalog.Пользователи</content>
+  <parentSubsystem>Subsystem.НСИ</parentSubsystem>
+</mdclass:Subsystem>

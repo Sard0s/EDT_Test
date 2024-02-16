@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92f8527d-6ad9-4939-831d-e3abf8fff692">
+  <producedTypes>
+    <objectType typeId="f8cffe49-ccdd-4903-adc8-170febd7717b" valueTypeId="e7506ca2-dc76-465b-a57f-2118a82ff95c"/>
+    <refType typeId="0100e4d6-3e92-4e00-8f0f-2967c8723794" valueTypeId="fd625859-7445-4c96-b130-0407a3645b63"/>
+    <selectionType typeId="f33d85d9-69e9-47cc-abfb-cdca17a5d0ac" valueTypeId="4f0d895e-f35a-4d42-ba5e-be755c1e08d7"/>
+    <listType typeId="8e3a6eb1-961a-4988-aefb-7dfc0538cd30" valueTypeId="6dc363fa-56a0-41c9-838c-0b88072ce7e1"/>
+    <managerType typeId="27e20a06-9373-44fb-8f87-cbb5a1dba4b5" valueTypeId="3ce89706-d43b-4442-9f14-56f1a923aaa2"/>
+  </producedTypes>
+  <name>ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГрафикиРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ca8a90fc-3ea7-4ac1-b4e9-f688f73bf35c">
+      <name>Пятидневка</name>
+      <description>Пятидневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="af14963f-0666-4f06-b006-c8ab818c0737">
+      <name>Четырехдневка</name>
+      <description>Четырехдневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d28983ea-feb3-4276-be48-7528136bb0ac">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

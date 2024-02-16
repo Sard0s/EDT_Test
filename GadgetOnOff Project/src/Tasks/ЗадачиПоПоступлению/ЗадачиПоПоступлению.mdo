@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d300dc72-fae9-4072-a3c9-eeba0cfaa27d">
+  <producedTypes>
+    <objectType typeId="584064ce-c625-40d0-a09e-e336670383a6" valueTypeId="9daeaaa8-1870-411f-b660-388b1b926146"/>
+    <refType typeId="b40a2238-5455-4682-b3d0-cf23a70f8cb2" valueTypeId="2e0ae463-a105-4374-a85e-5f06d69f63f8"/>
+    <selectionType typeId="3ea53b99-bf09-4f91-ab7b-9c84a4d042c6" valueTypeId="1caff197-1afa-4028-8faf-0e0afbae409e"/>
+    <listType typeId="efc18650-b976-4892-810b-4e0af59ead61" valueTypeId="dbfb0c88-eab8-457d-9099-b72cf82e6962"/>
+    <managerType typeId="6fe81575-505e-42bb-92ea-4a91e69b2467" valueTypeId="e777fb51-96ae-43f1-a83e-4a16e9cb9bd8"/>
+  </producedTypes>
+  <name>ЗадачиПоПоступлению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи по поступлению</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачиПоПоступлению.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачиПоПоступлению.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <addressing>InformationRegister.РегистрАдресации</addressing>
+  <mainAddressingAttribute>Task.ЗадачиПоПоступлению.AddressingAttribute.Сотрудник</mainAddressingAttribute>
+  <currentPerformer>SessionParameter.ТекушийПользователь</currentPerformer>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultListForm>Task.ЗадачиПоПоступлению.Form.ФормаСписка</defaultListForm>
+  <forms uuid="7fbc84f0-71ae-42eb-8f80-5d348d9e428a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="02271175-2a79-448a-96a4-edb1b7fe61c3">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.РегистрАдресации.Dimension.Сотрудник</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <addressingAttributes uuid="960b1eb3-7562-40d2-8daf-8260ef4b78a6">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.РегистрАдресации.Dimension.Подразделение</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <addressingAttributes uuid="3cbb7764-2301-4237-97f8-461f453f8bd4">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.РегистрАдресации.Dimension.Должность</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+</mdclass:Task>

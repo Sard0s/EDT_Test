@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e150f045-c355-43bb-97a8-b2091ed5624a">
+  <producedTypes>
+    <objectType typeId="053cba91-a986-410d-9eed-7af8e939cd9d" valueTypeId="812f44b3-4dc3-4784-8c29-1ffc7fd952d1"/>
+    <managerType typeId="86716b95-72cb-444a-a4f0-dd1599962d2e" valueTypeId="aa6d9513-a6a1-46ab-a6c7-f40afbf22b7c"/>
+  </producedTypes>
+  <name>ОбъектыСсылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты ссылки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбъектыСсылки.Form.Форма</defaultForm>
+  <attributes uuid="2d024bc4-7e04-4026-8e17-20236a39a322">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1f74281a-59be-4b08-9986-0483280573a9">
+    <name>НаименованиеВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование валюты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e94ebe17-fc12-4ddf-b8a7-023aa4a7ee31">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0d3aba7-a8a2-4739-b997-8d2b5934f117">
+  <producedTypes>
+    <selectionType typeId="3bee3bfd-2247-4f0e-9e03-b32ba87f80a9" valueTypeId="9efb5cc2-4fcc-4670-bd5b-ae1b220556b1"/>
+    <listType typeId="e04c703f-e0d3-4efe-9a48-42b1b5db4009" valueTypeId="7632fe43-6c82-4762-b7b0-e2c5bcaa719e"/>
+    <managerType typeId="182f1c80-3225-437f-8ae6-aab6a80646dd" valueTypeId="af2fa8ab-d867-4471-b7e9-edb5d936423b"/>
+    <recordSetType typeId="52673dba-4472-4aea-95d9-dbd3a70c982d" valueTypeId="f456a642-f7ed-4b09-a642-e64da56329aa"/>
+    <recordKeyType typeId="4e3bc1c1-21d4-4d1e-a4e3-ef2f4aae6626" valueTypeId="a2372a4c-3129-4b0b-b696-8c340870b353"/>
+    <recordType typeId="3be43902-bed4-4cc4-94fd-e92a44ee2216" valueTypeId="baabaf53-b567-43a8-ba92-50d17c58f770"/>
+    <recordManagerType typeId="edfbc111-09f2-4b52-807e-858f0d98b9a4" valueTypeId="ef300f43-3f74-44e8-921d-811fb4e8a7da"/>
+  </producedTypes>
+  <name>КурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="85eee3b3-ec0f-4a14-a89a-34c3bdcc53da">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c38027c0-ed2c-4662-9899-5dd10c885343">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

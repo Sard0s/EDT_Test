@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee3f73a5-6d9f-47a7-9583-b9b0010181ae">
+  <producedTypes>
+    <selectionType typeId="2815b86e-0186-4471-b2fb-6ebcdae15c3b" valueTypeId="5a0df593-053d-4ed8-8173-b224bc40ff2e"/>
+    <listType typeId="c21cd7bc-857a-4474-8217-c455e2b4aff3" valueTypeId="d9ea953e-35d7-47f8-8390-d994f3522862"/>
+    <managerType typeId="c10296ef-6cce-412e-a538-39d8953c2104" valueTypeId="8274967a-e0b2-41eb-88ad-c9faa30b187b"/>
+    <recordSetType typeId="63228333-a953-4900-9c02-b9d6e0170742" valueTypeId="eb74252b-c669-4c43-bc56-a33c166a197a"/>
+    <recordKeyType typeId="7ee96a95-7424-4761-8114-5a659627c103" valueTypeId="e6aab0df-534c-4f22-8112-bab1da218692"/>
+    <recordType typeId="41a4e86e-a1f8-488b-b325-381e8c205145" valueTypeId="ca20a269-c561-416e-a372-318d1338691f"/>
+    <recordManagerType typeId="ef94ce24-6bd0-4dda-944f-0cb9a8c488c7" valueTypeId="61e6ba1c-e8ac-418b-b90a-b2f9d5b03027"/>
+  </producedTypes>
+  <name>СведенияОДетях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о детях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f67eb450-ac9d-4ba0-ae43-2a517b0db41a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aad3e3a9-9295-4957-9f42-4c34b804e142">
+    <name>Ребенок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДетиСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46de53ec-d87b-49a1-b865-04030c49508d">
+  <name>ЗарплатаИКадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата и кадры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ГрафикиРаботы</content>
+  <content>CalculationRegister.ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>DataProcessor.ЗаполнениеГрафика</content>
+  <content>Constant.СтавкаПоБольничномуВДень</content>
+  <content>Constant.СтавкаПоКомандировкеВДень</content>
+  <content>Catalog.ГрафикиРаботы</content>
+  <content>InformationRegister.ОкладыСотрудников</content>
+  <content>Document.УстановкаОкладов</content>
+  <content>ChartOfCalculationTypes.ДополнительныеНачисления</content>
+  <content>CalculationRegister.ДополнительныеНачисления</content>
+  <content>Report.НачисленияСотрудникам</content>
+  <content>Report.НачисленияСотрудникамПоМесяцам</content>
+  <content>Report.НачисленияСотрудникамОтработаноДней</content>
+  <subsystems>Кадры</subsystems>
+  <subsystems>Зарплата</subsystems>
+</mdclass:Subsystem>

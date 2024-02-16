@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c466714-9845-48e8-ac23-8e871d32de90">
+  <producedTypes>
+    <managerType typeId="6ad08b44-1146-4510-bb35-5b69f3bcf6e8" valueTypeId="6d96bf04-31dc-4fee-9cec-500280e3517c"/>
+    <valueManagerType typeId="6d5c41e2-bdb1-4a38-bd4b-aef670cdf2a5" valueTypeId="37be3543-44b6-4eae-9134-986388d37246"/>
+    <valueKeyType typeId="85e6f3b2-65a0-498a-88dd-036e8ba27f08" valueTypeId="8a611c42-821a-463c-8936-854ec9d647fe"/>
+  </producedTypes>
+  <name>СоздаватьВалютыАвтоматически</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создавать валюты автоматически</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

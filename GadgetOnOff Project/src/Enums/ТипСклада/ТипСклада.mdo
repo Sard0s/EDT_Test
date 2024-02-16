@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79183510-86ce-4e58-a9ca-6eddec72631e">
+  <producedTypes>
+    <refType typeId="3e9e9c88-16dd-4628-bd84-43928ba19a04" valueTypeId="ea705a3d-010b-431c-bb47-001fb15953b9"/>
+    <listType typeId="36eba0cd-cb0d-4bd7-89c1-015c0a783368" valueTypeId="376cd4b0-8602-4507-97f2-611cb9514f2e"/>
+    <managerType typeId="070d8728-baa8-4693-b5b1-a43281418375" valueTypeId="b6388fee-9131-4c8d-89b7-6631f9945bdb"/>
+  </producedTypes>
+  <name>ТипСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип склада</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="68fb7ae0-5b0d-4eba-991e-0fa11e0f7e14">
+    <name>Комплектующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ca0e37f-a13c-4863-a851-475a737d5457">
+    <name>ГотоваяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовая продукция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

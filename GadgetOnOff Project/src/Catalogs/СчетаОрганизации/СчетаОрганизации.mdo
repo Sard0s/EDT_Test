@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="154c7849-b01b-41cc-8918-0f625350f8d7">
+  <producedTypes>
+    <objectType typeId="a4450184-5c5c-47ed-bdf1-78d83ae0b189" valueTypeId="7951be41-4a2a-47b4-ade7-614fb7f794a6"/>
+    <refType typeId="0e77b982-277c-4827-8a3c-12b559daf888" valueTypeId="6ca94723-58c0-4ce8-a560-1fa918af47d8"/>
+    <selectionType typeId="475cb24e-aba1-49c7-be01-d8bf57fb7f16" valueTypeId="6b790474-77b3-46ae-b23f-32bf8c022771"/>
+    <listType typeId="3783fb7d-d78a-4e15-a379-4b25ebcad930" valueTypeId="5b2fc2b2-201a-43f9-b340-35180cdef617"/>
+    <managerType typeId="1a68c7e2-3e45-4356-802f-78b95975e4bc" valueTypeId="0757cc15-b76e-49e5-83f7-03556e67ed75"/>
+  </producedTypes>
+  <name>СчетаОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счета организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СчетаОрганизации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СчетаОрганизации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="50bb642b-35a1-42eb-abb8-646f01414ec4">
+    <name>НомерСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер счета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ab61c89-0c70-4b4a-aa2e-ca0f3654bcd4">
+  <producedTypes>
+    <selectionType typeId="14bca2ac-5aca-4c7a-a14b-2821befacb14" valueTypeId="6809d6fa-3cdd-4534-99da-a871f31b7f6c"/>
+    <listType typeId="cdbf7518-9864-47ea-a93a-ceab2517aef6" valueTypeId="5f312a9b-abc3-4ce1-86b6-bfd3738f91f0"/>
+    <managerType typeId="07bec94a-7d56-412a-acbe-9d85cdab7f1a" valueTypeId="01c125c2-8730-454e-be00-ffff2e398557"/>
+    <recordSetType typeId="22eda10c-fdbb-4cdc-bc4c-7b4130e82a91" valueTypeId="2657eaf2-c2f1-43c8-bb06-1f78a52bc930"/>
+    <recordKeyType typeId="44c5afa1-6ccd-4981-afb1-c2eb263c5eff" valueTypeId="37fe92a8-2f60-4568-aa9e-bc8746202773"/>
+    <recordType typeId="99760e22-1c20-4c4c-8c37-df8a05509bae" valueTypeId="274d2c48-9f59-43bb-a882-f5872d407ed1"/>
+    <recalcsType typeId="936c9a17-9936-4692-9a7a-d1be6991d76d" valueTypeId="838cd48f-b82b-4599-93cc-357c9fccce06"/>
+  </producedTypes>
+  <name>ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <schedule>InformationRegister.ГрафикиРаботы</schedule>
+  <scheduleValue>InformationRegister.ГрафикиРаботы.Resource.ЗначениеЧасы</scheduleValue>
+  <scheduleDate>InformationRegister.ГрафикиРаботы.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="294cb15c-6cc7-4d75-84d7-21badc29730a">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="aec4b38d-2314-4c4a-ae48-782417cbf0a8">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0ec28a14-65e9-480c-bbcf-5da4d8367350">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e7db04dc-ce7c-415e-8646-0a934c3fc1de">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <scheduleLink>InformationRegister.ГрафикиРаботы.Dimension.График</scheduleLink>
+  </attributes>
+  <dimensions uuid="3c754763-7a94-4b5d-b1b2-1cca2a949367">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

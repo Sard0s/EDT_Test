@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b58f42f-cc24-4f0a-92fb-1ed38fb76ee1">
+  <producedTypes>
+    <objectType typeId="bd29c623-12ac-49f9-8583-c54bd5a760f4" valueTypeId="a99ed91b-2a1f-4026-b97e-716da30111eb"/>
+    <refType typeId="b1d57539-0988-43d9-a91b-09e322b4e5df" valueTypeId="8682da8e-71c5-4616-8b2b-02fac1281f13"/>
+    <selectionType typeId="ca2383b7-bce0-4948-b8ea-92297773b1ee" valueTypeId="3dd51528-f3a3-4399-a1e0-c48e274b3c2e"/>
+    <listType typeId="49c28dcb-73c7-4cfc-be9b-800386086828" valueTypeId="b5ec8f64-becc-4177-9f9e-9fbc9f82687a"/>
+    <managerType typeId="3d06d101-42fc-4a9c-a434-e3c3f1e530e8" valueTypeId="e4d47718-bbc6-44be-8cea-05cb7a5222f2"/>
+    <routePointRef typeId="d5706e2b-a60e-4a29-a9c9-dfb98e3fea7f" valueTypeId="6a4d1da9-02bc-460b-ae3a-1ada474b1cfe"/>
+  </producedTypes>
+  <name>БППоступлениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>БП-поступление товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.БППоступлениеТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачиПоПоступлению</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="a5221b2b-fa91-4876-9252-8b5edcb631cf">
+    <name>ОплатаНаличными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата наличными</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:BusinessProcess>

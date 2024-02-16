@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce093629-f451-447c-8e5b-5039455cf5c4">
+  <producedTypes>
+    <managerType typeId="766a79cc-6823-4873-a567-39738345d9ab" valueTypeId="66698f79-5570-41ed-9ee4-40e5d48f69c5"/>
+    <valueManagerType typeId="26a0382a-a55e-4518-9db9-c371b331b0e5" valueTypeId="2c62857a-7277-44f2-97d1-56b853e525ea"/>
+    <valueKeyType typeId="aaa41559-dc7e-44a4-9510-52c12f2fff92" valueTypeId="fe40c666-012e-4f94-b7e6-6c8ec56e4bc5"/>
+  </producedTypes>
+  <name>СтавкаПоБольничномуВДень</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка по больничному в день</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

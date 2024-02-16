@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5837d933-1846-4b62-82b1-ebdaec85d4fe">
+  <producedTypes>
+    <objectType typeId="24156445-55ac-4562-bacb-cecb0e615a0b" valueTypeId="b9fcf4cd-ef4d-4783-b56f-0660c9c44e50"/>
+    <refType typeId="de3bff3a-37fd-4db6-a6b7-ee65b5ca8dca" valueTypeId="305cfc8b-3b52-4ae8-93e0-75476d78e8f8"/>
+    <selectionType typeId="11986aec-0a95-415f-8e5a-8afe17c9551c" valueTypeId="520945b7-498f-490a-94c5-1a69cc7025c4"/>
+    <listType typeId="515ecafa-de30-4301-86d7-29095654743f" valueTypeId="59d1805c-0646-47f1-9e4a-77fce9e07fc3"/>
+    <managerType typeId="0f007fc7-99e5-436d-a385-ed7518b4107e" valueTypeId="3d88d7b9-5d99-4dc3-87fd-6d173dcd985f"/>
+  </producedTypes>
+  <name>ДетиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дети сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДетиСотрудников.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДетиСотрудников.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДетиСотрудников.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="e5125dbc-0870-4859-8b8c-455cdfdd7735">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

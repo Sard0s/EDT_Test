@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5f61a65-f78d-4ae0-8373-98b8e26140da">
+  <producedTypes>
+    <objectType typeId="a3105638-a71d-4b47-b665-af7a054fd6b4" valueTypeId="ae6674af-af7d-41e6-9bcd-8741dcc11bcd"/>
+    <refType typeId="c9621c69-48b4-45b3-89ea-da64a24d23d2" valueTypeId="1305007b-774f-487e-bbda-14783218cf7a"/>
+    <selectionType typeId="bcc63927-3390-4a5a-86c0-aba913089787" valueTypeId="d5dc49aa-2a45-46aa-a00c-c0f0d1ca3527"/>
+    <listType typeId="d5033948-9d1e-4bef-a3db-d365a27d4dad" valueTypeId="8ed713b0-507b-4112-bb11-f459049bbb12"/>
+    <managerType typeId="22780538-1e1d-4726-9773-1235c4a93c7d" valueTypeId="77d41bdd-d41e-4cf1-ba6c-a7658e252fb7"/>
+  </producedTypes>
+  <name>УстановкаКурсовВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка курсов валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаКурсовВалют.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.КурсыВалют</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="a04e4095-e57a-4c3f-a91e-d9dc7637ba98">
+    <producedTypes>
+      <objectType typeId="c7a48ec9-0812-4f11-a44f-891d2a3ec393" valueTypeId="22d2adf4-66b0-4c6e-97c1-ba50b75aeec6"/>
+      <rowType typeId="73828dbb-280a-4d31-8ac7-49cb3c463f73" valueTypeId="42fa464f-4085-4a8c-a676-8ea658ba670e"/>
+    </producedTypes>
+    <name>Валюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюты</value>
+    </synonym>
+    <attributes uuid="69abfc67-2292-4f2e-ba88-72bce42873a9">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ea6652b2-29be-43f4-95f8-33e28b02db10">
+      <name>Курс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Курс</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

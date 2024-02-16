@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa26ec7d-829f-4eeb-af81-594ab71f08aa">
+  <producedTypes>
+    <objectType typeId="3411829f-132b-4d32-b7ab-f5b97ab8be7c" valueTypeId="71e62270-1e25-4cc3-abd2-4207150b86be"/>
+    <refType typeId="f7c5269f-d7a8-47e9-bc6a-8155e8a436c5" valueTypeId="b968f41f-efe8-4372-9c85-29a3574b2749"/>
+    <selectionType typeId="c705c6cc-599d-46c2-84ef-bda8fbcf96eb" valueTypeId="2ee7ee1c-ac5a-42ad-8367-011a2e847cbc"/>
+    <listType typeId="f165dda4-4e93-4906-9a05-d4e81c8b2d5f" valueTypeId="f3b0272f-5f59-4b71-8649-a7bf7e9163ef"/>
+    <managerType typeId="5a2bb9c7-7864-4272-a3ba-f857e804eb9d" valueTypeId="7faf1f11-5bbc-4613-8da4-1872861a8218"/>
+  </producedTypes>
+  <name>УстановкаОкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка окладов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаОкладов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.ОкладыСотрудников</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="4cb04e31-ae59-4df4-aac1-dec6e11d3b03">
+    <producedTypes>
+      <objectType typeId="219604a8-5559-4033-8188-f2430dcf8775" valueTypeId="69553d08-3609-421d-885d-ad7def6e331d"/>
+      <rowType typeId="1be6a29d-3567-43c1-bf9a-6986e152861c" valueTypeId="3ebb8966-d680-4544-bf8f-55e7b4ba38bf"/>
+    </producedTypes>
+    <name>ОкладыСотрдуников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклады сотрдуников</value>
+    </synonym>
+    <attributes uuid="a32ed5ed-afb9-420c-a90a-97a5a0fa0ad8">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="10e39b17-9caa-4359-a4d4-2382b695a371">
+      <name>Подразделения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b5798a18-92dd-40fb-8f5d-6b95ef9edacb">
+      <name>Оклад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оклад</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
